@@ -30,7 +30,7 @@ print(john_marks[1], id(john_marks[1]), type(john_marks[1]))
 # a_marks = 70, 80, 85
 a_marks = (70, 80, 85)
 print(a_marks, id(a_marks), type(a_marks))
-a_marks[0]=90;
+#a_marks[0]=90; # this will throw an error because tuple can't be modified.
 
 
 class_record =[
