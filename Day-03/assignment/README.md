@@ -13,6 +13,7 @@ The assignment focused on representing complex UI information in a structured ma
 ## 📝 Problem Statement
 
 Analyze the MakeMyTrip flight booking page and organize the displayed information into a well-structured Python dictionary.
+![Assignment 1](../images/assignment_1.jpg)
 
 ---
 
@@ -92,6 +93,7 @@ Through this assignment, I learned how to:
 ## 📝 Problem Statement
 
 Study the BookMyShow movie ticket booking interface and organize its seating information using Python data structures.
+![Assignment 2](../images/assignment_2.jpg)
 
 ---
 
