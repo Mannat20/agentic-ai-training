@@ -99,7 +99,22 @@ print(a & b)
 print(a | b)
 print(a ^ b)
 ```
+## Use Cases of Bitwise Operators
 
+Bitwise operators work directly on the binary representation of numbers. They are mainly used in situations where speed and efficient memory usage are important.
+
+### Common Applications
+
+- **Permission Management:** Managing read, write, and execute permissions.
+- **Embedded Systems:** Controlling hardware components like LEDs, sensors, and microcontrollers.
+- **Networking:** Processing IP addresses, subnet masks, and packet headers.
+- **Encryption:** Performing XOR operations for simple encryption and data security.
+- **Graphics & Image Processing:** Manipulating pixel values and image masks.
+- **Performance Optimization:** Using shift operators (`<<`, `>>`) for fast multiplication and division by powers of 2.
+
+### Key Takeaway
+
+Bitwise operators are preferred when working with binary data, low-level programming, hardware interaction, networking, and performance-critical applications.
 ---
 
 ## 7. Shift Operators
