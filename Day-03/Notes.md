@@ -15,15 +15,16 @@ n = number of buckets
 
 Example
 
-Number = 27
+Number = 26
 
-Buckets = 10
+Buckets = 13
 
 Hash
 
-27 % 10 = 7
+26 % 13 = 0
 
-Store data inside Bucket 7.
+Store data inside Bucket 0.
+![Hashing Memory](images/hashing.jpg)
 
 ---
 
@@ -101,6 +102,7 @@ List Object
 ↓
 
 Each element stored separately
+![Multi_Value](images/multi_value_in_memory)
 
 ---
 
@@ -140,13 +142,14 @@ Reference Copy means two variables point to the same object.
 
 Example
 
-a=[10,20]
+data=[10,20,30,40,50]
 
-b=a
+number=data
 
 Both variables point to the same list.
 
 Changing one affects the other.
+![Reference Copy](images/reference_copy_operation.jpg)
 
 ---
 
