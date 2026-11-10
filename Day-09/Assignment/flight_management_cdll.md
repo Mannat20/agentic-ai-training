@@ -24,9 +24,10 @@ To implement a Flight Management System using Circular Doubly Linked List and pe
 
 # Relationship
 
-Flight1 ⇄ Flight2 ⇄ Flight3 ⇄ Flight4
-↑                                       ↓
-└───────────────────────────────────────┘
+
+Flight1 ⇄ Flight2 ⇄ Flight3 ⇄ Flight4 
+                           ↓            
+↑└──────────────────────┘
 
 ---
 
