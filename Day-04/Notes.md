@@ -15,7 +15,8 @@ A Set stores unique and unordered elements.
 
 ### Memory Representation
 
-(Add Screenshot)
+<img width="652" height="377" alt="set_in_memory" src="https://github.com/user-attachments/assets/275ee880-beec-4d53-aaf1-aa05961dfe4a" />
+
 
 ---
 
@@ -31,7 +32,8 @@ Dictionary stores key-value pairs.
 
 ### Memory Representation
 
-(Add Screenshot)
+<img width="546" height="325" alt="dict_in_memory" src="https://github.com/user-attachments/assets/dc7e876c-a61b-4b90-b076-4cc677b620b2" />
+
 
 ---
 
@@ -43,7 +45,8 @@ Whenever a function is called,
 - Local variables are stored inside the frame.
 - Frame is destroyed after function execution.
 
-(Add Stack Frame Diagram)
+<img width="535" height="314" alt="main_frame" src="https://github.com/user-attachments/assets/71e8410c-82fa-4621-a1b5-66b212990cbf" />
+
 
 ---
 
@@ -387,7 +390,8 @@ Uses
 
 Alternating values create the chess board structure.
 
-(Add Output Screenshot)
+<img width="604" height="161" alt="chess_board" src="https://github.com/user-attachments/assets/2a2d676e-134c-4eb6-810b-c820d840f016" />
+
 
 ---
 
