@@ -81,10 +81,11 @@ A Circular Doubly Linked List is a doubly linked list where:
 
 Structure:
 
-Song1 ⇄ Song2 ⇄ Song3
- ↑                 ↓
- └─────────────────┘
-
+Song1 ⇄ Song2 ⇄ Song3    ↓
+   
+   ↑              
+ └─────────────────┘ 
+    
 ---
 
 # Advantages of CDLL
