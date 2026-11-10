@@ -50,7 +50,8 @@ For each row
 
 # 📷 Output
 
-(Add Chess Board Screenshot)
+<img width="604" height="161" alt="chess_board" src="https://github.com/user-attachments/assets/832af9d3-3135-44fa-a716-5550861c159e" />
+
 
 ---
 
