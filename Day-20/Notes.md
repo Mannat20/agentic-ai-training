@@ -25,7 +25,7 @@ Planned features: contact management, task scheduling, AI calling agents, voice 
 The application is **not** written in one big file. Each module has one responsibility.
 
 ```
-delegate-ai/
+Proxy/
 ├── .env                 # secrets (never pushed to GitHub)
 ├── contacts.json        # sample contacts
 ├── config.py            # settings and service clients
@@ -42,33 +42,13 @@ Benefits of splitting the project:
 - New features can be added as new modules.
 - Several people can work on different files.
 
-![Project directory](images/day20-project-directory.png)
+<img width="350" height="300" alt="day20-project-directory" src="https://github.com/user-attachments/assets/1656fbce-9303-4c19-a60e-7ae9d6a9edc0" />
+
 
 ---
 
 # Configuration (config.py)
-
-```python
-import os
-from dotenv import load_dotenv
-from openai import OpenAI
-from elevenlabs import ElevenLabs
-
-load_dotenv()
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
-ELEVENLABS_AGENT_ID = os.getenv("ELEVENLABS_AGENT_ID")
-ELEVENLABS_PHONE_NUMBER_ID = os.getenv("ELEVENLABS_PHONE_NUMBER_ID")
-MONGODB_USERNAME = os.getenv("MONGODB_USERNAME")
-MONGODB_PASSWORD = os.getenv("MONGODB_PASSWORD")
-MONGODB_CLUSTER = os.getenv("MONGODB_CLUSTER")
-MONGODB_URI = f"mongodb+srv://{MONGODB_USERNAME}:{MONGODB_PASSWORD}@{MONGODB_CLUSTER}"
-DB_NAME = 'jai2026'
-
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
-elevenlabs_client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
-```
+<img width="830" height="532" alt="day20-config-file" src="https://github.com/user-attachments/assets/fb44ec3f-6614-49c9-b29c-c768f47e54de" />
 
 ### Step by step
 
@@ -90,7 +70,8 @@ MONGODB_PASSWORD=...
 - Install the package with `pip install python-dotenv`.
 - Use your **own** database name in `DB_NAME`.
 
-![Config file](images/day20-config-file.png)
+
+
 
 ---
 
@@ -150,7 +131,8 @@ class DBHelper:
 | `update()` | `update_one()` with `$set` |
 | `delete()` | `delete_one()` |
 
-![Database helper](images/day20-database-helper.png)
+<img width="642" height="1056" alt="day20-database-helper" src="https://github.com/user-attachments/assets/05612e9e-deb0-4d8c-8e74-b3713a6ab5eb" />
+
 
 ---
 
@@ -195,7 +177,8 @@ def save_contacts():
 
 Why JSON? New contacts can be added or changed in the file without changing the code.
 
-![Contacts import](images/day20-contacts-import.png)
+<img width="455" height="243" alt="day20-contacts-import" src="https://github.com/user-attachments/assets/aceeb212-f789-4f67-8815-5645c381c09c" />
+
 
 ---
 
